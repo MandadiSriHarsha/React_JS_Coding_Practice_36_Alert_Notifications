@@ -1,0 +1,65 @@
+* {
+  font-family: 'Roboto';
+}
+
+.notification-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px 0px 15px 0px;
+  border: 2px solid #e5e5e5;
+  border-radius: 10px;
+  padding: 10px;
+  width: 80%;
+  max-width: 600px;
+}
+
+.notification-icon {
+  height: 30px;
+  width: 30px;
+  margin-top: 12px;
+  align-self: flex-start;
+}
+
+.notification-content-card {
+  align-self: flex-start;
+  margin-top: 12px;
+  padding: 0px;
+  width: 50%;
+}
+
+.notification-content-card-heading {
+  font-size: 22px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.notification-content-card-description {
+  font-size: 18px;
+  margin-top: 6px;
+  padding: 0px;
+  color: #64748b;
+}
+
+.close-icon {
+  height: 23px;
+  width: 23px;
+  cursor: pointer;
+}
+
+.success-style {
+  color: #2dca73;
+}
+
+.error-style {
+  color: #ff0b37;
+}
+
+.warning-style {
+  color: #ffb800;
+}
+
+.info-style {
+  color: #0f81e0;
+}
